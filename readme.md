@@ -9,17 +9,16 @@
 
 ## Como rodar - Linux 
 
-''' sh
+``` sh
 export FLASK_APP=app
 export FLASK_ENV=Development
 export FLASK_DEBUG=True
-''''
+```
 
 ## Como rodar - windows
 
-''' 
-cmd
+``` sh
 set FLASK_APP=app
 set FLASK_ENV=Development
 set FLASK_DEBUG=True
-''''
+```
