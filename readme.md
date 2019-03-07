@@ -1,19 +1,24 @@
 # Crud basico com flask
 
-### Tecnologias 
+Experiência com um crud usando flask e suas ferramentas
 
-+ python 3.7 
-+ flask 
-+ mashmellow
+- Flask
+- flask_sqlalchemy
+- flask_migrate
+- flask_marshmallow
+- marshmallow_sqlalchemy
 
 
-## Como rodar - Linux 
+## Como rodar esse projeto
 
-``` sh
+```sh
 export FLASK_APP=app
 export FLASK_ENV=Development
 export FLASK_DEBUG=True
+
+flask run
 ```
+
 
 ## Como rodar - windows
 
@@ -21,4 +26,14 @@ export FLASK_DEBUG=True
 set FLASK_APP=app
 set FLASK_ENV=Development
 set FLASK_DEBUG=True
+
+flask run
+```
+
+## Como fazer as migrações
+
+```sh
+flask db init
+flask db migrate
+flask db upgrade
 ```
